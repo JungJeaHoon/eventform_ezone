@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 8px;
+  color:#4B4B4B;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.login_input_wrap {
+  width: 360px;
+  margin: auto;
+}
+.SubjectTitle {
+  font-size: 13px;
+}
+.login_frm {
+}
+header {
+  background: #F6F2E3;
+  text-align: center;
+  padding: 1px;
+}
+.Subtitle {
+  font-size: 8px;
+  margin-bottom: 4px;
+  margin-top: 30px;
+}
+.InputBoxWrap {
+  overflow: hidden;
+  border-radius: 5px;
+  border: 0.5px solid #4B4B4B;
+}
+tr , td, th {
+  border: 0.5px solid #aaa9a9;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+th {
+  background: #F4F3F3;
+  width: 70px;
+  height: 35px;
+}
+td {
+  overflow: hidden;
+  height: 35px;
+  width: 100px;
+}
+.InpWrite {
+  width: 100%;
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+.Realize {
+  width: 30px;
+}
+.Resize {
+  height: 25px;
+}
+.ImgBoxWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.ImgWrap {
+  width: 75px;
+  height: 68px;
+  border: 1px solid #4B4B4B;
+  overflow: hidden;
+}
+.EventImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.IntroImg {  
+  text-align: center;
+  margin-top: 20px;
+}
+.PotoTitle {
+  margin-top: 20px;
+}
+.ProIntro {
+  color: #aaa9a9;
+  margin-top: 3px;
+}
+.ProIntroP {
+  margin-bottom: 0;
+}
